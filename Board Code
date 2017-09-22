@@ -1,0 +1,35 @@
+board = []
+for i in range(4):
+  board.append("0")
+  board.append(" ")
+
+for i in range(4):
+  board.append(" ")
+  board.append("o")
+  
+for i in range(4):
+  board.append("o")
+  board.append(" ")    #The CPU(Top player) has their pieces set up.
+  
+for i in range(2):
+  board.append(" "*8)
+  
+for i in range("4"):
+  board.append(" ")
+  board.apped("x")
+
+for i in range(4):
+  board.append("x")
+  board.apped(" ")
+
+for i in range(4):
+  board.append(" ")
+  board.append("x")  #The human player's pieces are set up
+  
+  #The board is almost complete.
+
+print board[0::8]
+  
+
+
+
